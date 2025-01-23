@@ -1,4 +1,10 @@
-﻿namespace COMP003A.Assignment2
+﻿/*
+ Author: Jason Salinas
+ Course: COMP-003A
+ Faculty: Jonathan Cruz
+ Purpose: Discount Calculator
+*/
+namespace COMP003A.Assignment2
 {
     internal class Program
     {
