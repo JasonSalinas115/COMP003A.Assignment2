@@ -25,13 +25,16 @@
             Console.Write("Are you a student? (true/false) ");
             isStudent = bool.Parse(Console.ReadLine());
 
-         
+            int futureAge = userAge + 5;
+            double ifStudent = itemPrice * 0.9;
+            double ifSenior = itemPrice * 0.8;
+
             Console.WriteLine($"\nHello, {firstName} {lastName}!");
             Console.WriteLine($"Your current age is {userAge}");
-            Console.WriteLine($"In 5 years, you will be {}");
+            Console.WriteLine($"In 5 years, you will be {futureAge}");
             Console.WriteLine($"The original price of the item is {itemPrice}");
-            Console.WriteLine($"As a student, your discounted price of the item is {}");
-            Console.WriteLine($"As a senior, your discounted price of the item is {}");
+            Console.WriteLine($"As a student, your discounted price of the item is {ifStudent}");
+            Console.WriteLine($"As a senior, your discounted price of the item is {ifSenior}");
         }
     }
 }
