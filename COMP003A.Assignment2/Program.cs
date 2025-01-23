@@ -19,13 +19,19 @@
             Console.Write("How old are you? ");
             userAge = int.Parse(Console.ReadLine());
 
-            Console.Write("What is the price of the item you're interested in?");
+            Console.Write("What is the price of the item you're interested in? ");
             itemPrice = double.Parse(Console.ReadLine());
 
-            Console.Write("Are you a student? (true/false)");
+            Console.Write("Are you a student? (true/false) ");
             isStudent = bool.Parse(Console.ReadLine());
 
-            Console.WriteLine($"\nHello, {firstName} {lastName}");
+         
+            Console.WriteLine($"\nHello, {firstName} {lastName}!");
+            Console.WriteLine($"Your current age is {userAge}");
+            Console.WriteLine($"In 5 years, you will be {}");
+            Console.WriteLine($"The original price of the item is {itemPrice}");
+            Console.WriteLine($"As a student, your discounted price of the item is {}");
+            Console.WriteLine($"As a senior, your discounted price of the item is {}");
         }
     }
 }
